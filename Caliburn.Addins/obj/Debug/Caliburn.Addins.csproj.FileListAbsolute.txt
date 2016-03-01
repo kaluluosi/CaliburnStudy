@@ -1,0 +1,14 @@
+D:\Projects\CaliburnStudy\Caliburn.Addins\bin\Debug\Caliburn.Addins.dll
+D:\Projects\CaliburnStudy\Caliburn.Addins\bin\Debug\Caliburn.Addins.pdb
+D:\Projects\CaliburnStudy\Caliburn.Addins\bin\Debug\Caliburn.Micro.dll
+D:\Projects\CaliburnStudy\Caliburn.Addins\bin\Debug\Caliburn.Micro.Platform.Core.dll
+D:\Projects\CaliburnStudy\Caliburn.Addins\bin\Debug\Caliburn.Micro.Platform.dll
+D:\Projects\CaliburnStudy\Caliburn.Addins\bin\Debug\System.Windows.Interactivity.dll
+D:\Projects\CaliburnStudy\Caliburn.Addins\bin\Debug\Caliburn.Micro.xml
+D:\Projects\CaliburnStudy\Caliburn.Addins\bin\Debug\Caliburn.Micro.Platform.xml
+D:\Projects\CaliburnStudy\Caliburn.Addins\bin\Debug\Caliburn.Micro.Platform.Core.xml
+D:\Projects\CaliburnStudy\Caliburn.Addins\obj\Debug\Caliburn.Addins.csprojResolveAssemblyReference.cache
+D:\Projects\CaliburnStudy\Caliburn.Addins\obj\Debug\Caliburn.Addins.Resource1.resources
+D:\Projects\CaliburnStudy\Caliburn.Addins\obj\Debug\Caliburn.Addins.csproj.GenerateResource.Cache
+D:\Projects\CaliburnStudy\Caliburn.Addins\obj\Debug\Caliburn.Addins.dll
+D:\Projects\CaliburnStudy\Caliburn.Addins\obj\Debug\Caliburn.Addins.pdb
