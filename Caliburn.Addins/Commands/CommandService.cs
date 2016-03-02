@@ -7,6 +7,8 @@ using System.Threading.Tasks;
 using System.Reflection;
 using System.Windows.Input;
 using Caliburn.Micro;
+using Caliburn.Addins.WorkBench;
+using System.Collections.ObjectModel;
 
 namespace Caliburn.Addins.Commands {
     /// <summary>
@@ -19,6 +21,10 @@ namespace Caliburn.Addins.Commands {
         /// </summary>
         [ImportMany]
         public IEnumerable<IAppCommand> Commands { get; set; }
+
+        public Func<IAppCommand, MenuPathAttribute> GetMenuPath = (c) => { return c.GetType().GetCustomAttribute<MenuPathAttribute>(); };
+
+        public ObservableCollection<MenuItemModel> Menus{get;set;}
 
         /// <summary>
         /// 导入成功后会调用这个方法，在这个方法里做一些处理例如绑定快捷键
@@ -40,11 +46,42 @@ namespace Caliburn.Addins.Commands {
             }
 
             //初始化菜单模型
+            var menuCommands = from c in Commands
+                               where GetMenuPath(c)!=null
+                               select c;
+
+            Menus = new ObservableCollection<MenuItemModel>();
+
+            foreach(var c in menuCommands)
+            {
+                BuildMenuItem(c,GetMenuPath(c).Path,Menus);
+            }
 
             //初始化上下文菜单模型
 
         }
+
+        private void BuildMenuItem(IAppCommand command,string path,ObservableCollection<MenuItemModel> items)
+        {
+            string[] subpath = path.Split('.');
+
+            var curItems = items;
+            foreach(var sub in subpath)
+            {
+                if( curItems.FirstOrDefault(m=>m.Header==sub)== null)
+                {
+                    var newItem = new MenuItemModel() { Header = sub };
+                    curItems.Add(newItem);
+                    curItems = newItem.Items;
+                }
+            }
+
+            curItems.Add(new MenuItemModel() { Command = command });
+        }
+
     }
+
+
 
     public static class HotKeyTextConverter {
         public static string GetText(Key key,ModifierKeys modifiers) {

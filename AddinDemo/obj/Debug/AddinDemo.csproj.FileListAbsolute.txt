@@ -21,3 +21,28 @@ D:\Projects\CaliburnStudy\AddinDemo\obj\Debug\AddinDemo.Properties.Resources.res
 D:\Projects\CaliburnStudy\AddinDemo\obj\Debug\AddinDemo.csproj.GenerateResource.Cache
 D:\Projects\CaliburnStudy\AddinDemo\obj\Debug\AddinDemo.exe
 D:\Projects\CaliburnStudy\AddinDemo\obj\Debug\AddinDemo.pdb
+D:\Visual Studio 2013\CaliburnStudy\AddinDemo\bin\Debug\AddinDemo.exe.config
+D:\Visual Studio 2013\CaliburnStudy\AddinDemo\bin\Debug\AddinDemo.exe
+D:\Visual Studio 2013\CaliburnStudy\AddinDemo\bin\Debug\AddinDemo.pdb
+D:\Visual Studio 2013\CaliburnStudy\AddinDemo\bin\Debug\Caliburn.Addins.dll
+D:\Visual Studio 2013\CaliburnStudy\AddinDemo\bin\Debug\Caliburn.Micro.dll
+D:\Visual Studio 2013\CaliburnStudy\AddinDemo\bin\Debug\Caliburn.Micro.Platform.Core.dll
+D:\Visual Studio 2013\CaliburnStudy\AddinDemo\bin\Debug\Caliburn.Micro.Platform.dll
+D:\Visual Studio 2013\CaliburnStudy\AddinDemo\bin\Debug\System.Windows.Interactivity.dll
+D:\Visual Studio 2013\CaliburnStudy\AddinDemo\bin\Debug\Caliburn.Addins.pdb
+D:\Visual Studio 2013\CaliburnStudy\AddinDemo\bin\Debug\Caliburn.Micro.xml
+D:\Visual Studio 2013\CaliburnStudy\AddinDemo\bin\Debug\Caliburn.Micro.Platform.xml
+D:\Visual Studio 2013\CaliburnStudy\AddinDemo\bin\Debug\Caliburn.Micro.Platform.Core.xml
+D:\Visual Studio 2013\CaliburnStudy\AddinDemo\obj\Debug\AddinDemo.csprojResolveAssemblyReference.cache
+D:\Visual Studio 2013\CaliburnStudy\AddinDemo\obj\Debug\ShellView.g.cs
+D:\Visual Studio 2013\CaliburnStudy\AddinDemo\obj\Debug\App.g.cs
+D:\Visual Studio 2013\CaliburnStudy\AddinDemo\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\Visual Studio 2013\CaliburnStudy\AddinDemo\obj\Debug\AddinDemo_MarkupCompile.cache
+D:\Visual Studio 2013\CaliburnStudy\AddinDemo\obj\Debug\AddinDemo_MarkupCompile.lref
+D:\Visual Studio 2013\CaliburnStudy\AddinDemo\obj\Debug\App.baml
+D:\Visual Studio 2013\CaliburnStudy\AddinDemo\obj\Debug\ShellView.baml
+D:\Visual Studio 2013\CaliburnStudy\AddinDemo\obj\Debug\AddinDemo.g.resources
+D:\Visual Studio 2013\CaliburnStudy\AddinDemo\obj\Debug\AddinDemo.Properties.Resources.resources
+D:\Visual Studio 2013\CaliburnStudy\AddinDemo\obj\Debug\AddinDemo.csproj.GenerateResource.Cache
+D:\Visual Studio 2013\CaliburnStudy\AddinDemo\obj\Debug\AddinDemo.exe
+D:\Visual Studio 2013\CaliburnStudy\AddinDemo\obj\Debug\AddinDemo.pdb

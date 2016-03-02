@@ -14,6 +14,7 @@ namespace Caliburn.Addins.Commands {
             Path = path;
         }
 
+
         public string Path { get; set; }
 
     }

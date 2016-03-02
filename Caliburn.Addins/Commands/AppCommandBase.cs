@@ -11,12 +11,8 @@ namespace Caliburn.Addins.Commands {
         public string Name
         {
             get; set;
-        }
+        } = "Unnamed";
 
-        public string Text
-        {
-            get; set;
-        }
 
         public event EventHandler CanExecuteChanged
         {

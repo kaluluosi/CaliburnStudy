@@ -1,0 +1,25 @@
+﻿<Window x:Class="AddinDemo.ShellView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AddinDemo"
+        mc:Ignorable="d"
+        Title="ShellView" Height="300" Width="300">
+    <Grid>
+        <Menu ItemsSource="{Binding Menus}" HorizontalAlignment="Left" Height="22" VerticalAlignment="Top" Width="292">
+            <Menu.ItemContainerStyle>
+                <Style TargetType="MenuItem">
+                    <Setter Property="Header" Value="{Binding Header}"></Setter>
+                    <Setter Property="Command" Value="{Binding Command}"></Setter>
+                    <Setter Property="ItemsSource" Value="{Binding Items}"></Setter>
+                    <Setter Property="InputGestureText" Value="{Binding InputGestureText}"></Setter>
+                </Style>
+            </Menu.ItemContainerStyle>
+        </Menu>
+        <ListBox x:Name="listBox" HorizontalAlignment="Left" ItemsSource="{Binding Commands}"  Height="165" Margin="10,60,0,0" VerticalAlignment="Top" Width="153">
+            
+        </ListBox>
+
+    </Grid>
+</Window>

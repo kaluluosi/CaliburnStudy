@@ -15,10 +15,7 @@ namespace Caliburn.Addins.Commands {
         /// 命令名
         /// </summary>
         string Name { get; set; }
-        /// <summary>
-        /// 命令显示的名字
-        /// </summary>
-        string Text { get; set; }
+
 
         /// <summary>
         /// 热键描述

@@ -12,3 +12,17 @@ D:\Projects\CaliburnStudy\Caliburn.Addins\obj\Debug\Caliburn.Addins.Resource1.re
 D:\Projects\CaliburnStudy\Caliburn.Addins\obj\Debug\Caliburn.Addins.csproj.GenerateResource.Cache
 D:\Projects\CaliburnStudy\Caliburn.Addins\obj\Debug\Caliburn.Addins.dll
 D:\Projects\CaliburnStudy\Caliburn.Addins\obj\Debug\Caliburn.Addins.pdb
+D:\Visual Studio 2013\CaliburnStudy\Caliburn.Addins\bin\Debug\Caliburn.Addins.dll
+D:\Visual Studio 2013\CaliburnStudy\Caliburn.Addins\bin\Debug\Caliburn.Addins.pdb
+D:\Visual Studio 2013\CaliburnStudy\Caliburn.Addins\bin\Debug\Caliburn.Micro.dll
+D:\Visual Studio 2013\CaliburnStudy\Caliburn.Addins\bin\Debug\Caliburn.Micro.Platform.Core.dll
+D:\Visual Studio 2013\CaliburnStudy\Caliburn.Addins\bin\Debug\Caliburn.Micro.Platform.dll
+D:\Visual Studio 2013\CaliburnStudy\Caliburn.Addins\bin\Debug\System.Windows.Interactivity.dll
+D:\Visual Studio 2013\CaliburnStudy\Caliburn.Addins\bin\Debug\Caliburn.Micro.xml
+D:\Visual Studio 2013\CaliburnStudy\Caliburn.Addins\bin\Debug\Caliburn.Micro.Platform.xml
+D:\Visual Studio 2013\CaliburnStudy\Caliburn.Addins\bin\Debug\Caliburn.Micro.Platform.Core.xml
+D:\Visual Studio 2013\CaliburnStudy\Caliburn.Addins\obj\Debug\Caliburn.Addins.csprojResolveAssemblyReference.cache
+D:\Visual Studio 2013\CaliburnStudy\Caliburn.Addins\obj\Debug\Caliburn.Addins.Resource1.resources
+D:\Visual Studio 2013\CaliburnStudy\Caliburn.Addins\obj\Debug\Caliburn.Addins.csproj.GenerateResource.Cache
+D:\Visual Studio 2013\CaliburnStudy\Caliburn.Addins\obj\Debug\Caliburn.Addins.dll
+D:\Visual Studio 2013\CaliburnStudy\Caliburn.Addins\obj\Debug\Caliburn.Addins.pdb
