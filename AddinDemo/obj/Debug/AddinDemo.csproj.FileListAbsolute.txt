@@ -46,3 +46,5 @@ D:\Visual Studio 2013\CaliburnStudy\AddinDemo\obj\Debug\AddinDemo.Properties.Res
 D:\Visual Studio 2013\CaliburnStudy\AddinDemo\obj\Debug\AddinDemo.csproj.GenerateResource.Cache
 D:\Visual Studio 2013\CaliburnStudy\AddinDemo\obj\Debug\AddinDemo.exe
 D:\Visual Studio 2013\CaliburnStudy\AddinDemo\obj\Debug\AddinDemo.pdb
+D:\Visual Studio 2013\CaliburnStudy\AddinDemo\obj\Debug\MenuBarView.g.cs
+D:\Visual Studio 2013\CaliburnStudy\AddinDemo\obj\Debug\MenuBarView.baml

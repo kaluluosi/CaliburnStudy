@@ -1,4 +1,5 @@
-﻿using Caliburn.Micro;
+﻿using Caliburn.Addins.Commands;
+using Caliburn.Micro;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -78,6 +79,16 @@ namespace Caliburn.Addins {
 
             if (viewType != null) {
                 CommandManager.RegisterClassInputBinding(viewType, new KeyBinding(command,key, modifiers));
+            }
+        }
+
+        public static void BindHotKey(this Screen screen,IAppCommand command,Key key,ModifierKeys modifiers)
+        {
+            Type viewType = ViewLocator.LocateTypeForModelType(screen.GetType(), null, null);
+            if (viewType != null)
+            {
+                CommandManager.RegisterClassInputBinding(viewType, new KeyBinding(command, key, modifiers));
+                command.HotKey = new KeyGesture(key, modifiers);
             }
         }
 

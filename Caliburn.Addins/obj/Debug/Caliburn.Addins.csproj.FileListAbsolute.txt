@@ -22,7 +22,5 @@ D:\Visual Studio 2013\CaliburnStudy\Caliburn.Addins\bin\Debug\Caliburn.Micro.xml
 D:\Visual Studio 2013\CaliburnStudy\Caliburn.Addins\bin\Debug\Caliburn.Micro.Platform.xml
 D:\Visual Studio 2013\CaliburnStudy\Caliburn.Addins\bin\Debug\Caliburn.Micro.Platform.Core.xml
 D:\Visual Studio 2013\CaliburnStudy\Caliburn.Addins\obj\Debug\Caliburn.Addins.csprojResolveAssemblyReference.cache
-D:\Visual Studio 2013\CaliburnStudy\Caliburn.Addins\obj\Debug\Caliburn.Addins.Resource1.resources
-D:\Visual Studio 2013\CaliburnStudy\Caliburn.Addins\obj\Debug\Caliburn.Addins.csproj.GenerateResource.Cache
 D:\Visual Studio 2013\CaliburnStudy\Caliburn.Addins\obj\Debug\Caliburn.Addins.dll
 D:\Visual Studio 2013\CaliburnStudy\Caliburn.Addins\obj\Debug\Caliburn.Addins.pdb

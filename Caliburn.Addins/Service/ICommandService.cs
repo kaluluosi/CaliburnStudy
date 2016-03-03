@@ -4,9 +4,7 @@ using System.Collections.ObjectModel;
 
 namespace Caliburn.Addins.Commands {
     public interface ICommandService {
-        IEnumerable<IAppCommand> Commands { get; set; }
-
-        ObservableCollection<MenuItemModel> Menus { get; set; }
-
+        ObservableCollection<IAppCommand> Commands { get; set; }
+        void Configure();
     }
 }

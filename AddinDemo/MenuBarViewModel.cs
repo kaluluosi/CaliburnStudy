@@ -1,4 +1,4 @@
-﻿using Caliburn.Addins.Commands;
+﻿using Caliburn.Addins.Service;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.Composition;
@@ -8,8 +8,8 @@ using System.Threading.Tasks;
 
 namespace AddinDemo
 {
-    [Export(typeof(ICommandService))]
-    public class MyCommandService:CommandService
+    [Export(typeof(IMenuManager))]
+    public class MenuBarViewModel : MenuManager
     {
     }
 }

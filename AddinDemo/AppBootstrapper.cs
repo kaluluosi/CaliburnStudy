@@ -31,11 +31,13 @@ namespace AddinDemo
                     AssemblySource.Instance.Select(a => new AssemblyCatalog(a)).OfType<ComposablePartCatalog>()
                 );
 
+            //catalog.Catalogs.Add(new AssemblyCatalog(typeof(ICommandService).Assembly));
             container = new CompositionContainer(catalog);
 
             CompositionBatch batch = new CompositionBatch();
             batch.AddExportedValue<IWindowManager>(new WindowManager());
             batch.AddExportedValue<IEventAggregator>(new EventAggregator());
+
             container.Compose(batch);
         }
 

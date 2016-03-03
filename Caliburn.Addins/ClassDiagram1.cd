@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Caliburn.Addins.Commands.AppCommandBase" BaseTypeListCollapsed="true">
+    <Position X="5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAACAACACGBQAAEAAAAwAAgAAAEAAAAABAAEAAAA=</HashCode>
+      <FileName>Commands\AppCommandBase.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.221" Collapsed="true" />
+  </Class>
+  <Class Name="Caliburn.Addins.Commands.MenuPathAttribute">
+    <Position X="9.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Commands\MenuPathAttribute.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Caliburn.Addins.Commands.CommandAttribute" Collapsed="true">
+    <Position X="9" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Commands\CommandAttribute.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Caliburn.Addins.Commands.ContextMenuPathAttribute">
+    <Position X="9.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Commands\ContextMenuPathAttribute.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Caliburn.Addins.Commands.HotKeyAttribute" Collapsed="true">
+    <Position X="11.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAAQAAAAAAAAAAAAAAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>Commands\HotKeyAttribute.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Caliburn.Addins.Commands.EmptyCommand" Collapsed="true">
+    <Position X="1.5" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Commands\EmptyCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="Caliburn.Addins.Commands.IAppCommand" Collapsed="true">
+    <Position X="1" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAABAAAAAAA=</HashCode>
+      <FileName>Commands\IAppCommand.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Caliburn.Addins.Commands.ICheckable" Collapsed="true">
+    <Position X="1" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>Commands\ICheckable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Caliburn.Addins.Commands.IDisplay" Collapsed="true">
+    <Position X="4" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Commands\IDisplay.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Caliburn.Addins.Commands.IHotKey" Collapsed="true">
+    <Position X="6.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Commands\IHotKey.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Caliburn.Addins.Commands.IObservableParent&lt;T&gt;">
+    <Position X="9.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Commands\IObservableParent.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Caliburn.Addins.Commands.IOwner" Collapsed="true">
+    <Position X="2.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Commands\IOwner.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Microsoft YaHei UI" Size="9" />
+</ClassDiagram>

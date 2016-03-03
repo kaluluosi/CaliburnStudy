@@ -7,19 +7,11 @@
         mc:Ignorable="d"
         Title="ShellView" Height="300" Width="300">
     <Grid>
-        <Menu ItemsSource="{Binding Menus}" HorizontalAlignment="Left" Height="22" VerticalAlignment="Top" Width="292">
-            <Menu.ItemContainerStyle>
-                <Style TargetType="MenuItem">
-                    <Setter Property="Header" Value="{Binding Header}"></Setter>
-                    <Setter Property="Command" Value="{Binding Command}"></Setter>
-                    <Setter Property="ItemsSource" Value="{Binding Items}"></Setter>
-                    <Setter Property="InputGestureText" Value="{Binding InputGestureText}"></Setter>
-                </Style>
-            </Menu.ItemContainerStyle>
-        </Menu>
-        <ListBox x:Name="listBox" HorizontalAlignment="Left" ItemsSource="{Binding Commands}"  Height="165" Margin="10,60,0,0" VerticalAlignment="Top" Width="153">
-            
+        <ContentControl x:Name="MenuBar" Margin="0,0,0,239"></ContentControl>
+        <ListBox x:Name="listBox" HorizontalAlignment="Left" ItemsSource="{Binding Commands}"  Height="199" Margin="10,35,0,0" VerticalAlignment="Top" Width="272">
+
         </ListBox>
+        <Button Command="{Binding TestCmd}" Content="Test" HorizontalAlignment="Left" Margin="10,240,0,0" VerticalAlignment="Top" Width="75"/>
 
     </Grid>
 </Window>

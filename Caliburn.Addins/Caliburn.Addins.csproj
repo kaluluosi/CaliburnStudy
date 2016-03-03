@@ -62,32 +62,32 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CommandHelper.cs" />
+    <Compile Include="Commands\EmptyCommand.cs" />
     <Compile Include="Commands\AppCommandBase.cs" />
     <Compile Include="Commands\CommandAttribute.cs" />
-    <Compile Include="Commands\CommandService.cs" />
+    <Compile Include="Commands\IOwner.cs" />
+    <Compile Include="DialogResult.cs" />
+    <Compile Include="Service\CommandService.cs" />
     <Compile Include="Commands\ContextMenuPathAttribute.cs" />
     <Compile Include="Commands\HotKeyAttribute.cs" />
     <Compile Include="Commands\IAppCommand.cs" />
-    <Compile Include="Commands\ICommandService.cs" />
+    <Compile Include="Commands\ICheckable.cs" />
+    <Compile Include="Service\ICommandService.cs" />
+    <Compile Include="Commands\IDisplay.cs" />
+    <Compile Include="Commands\IHotKey.cs" />
+    <Compile Include="Commands\IObservableParent.cs" />
     <Compile Include="Commands\MenuPathAttribute.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Resource1.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Resource1.resx</DependentUpon>
-    </Compile>
+    <Compile Include="Service\IMenuManager.cs" />
+    <Compile Include="Service\MenuManager.cs" />
+    <Compile Include="WindowManagerExtension.cs" />
     <Compile Include="WorkBench\MenuItemModel.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup />
-  <ItemGroup>
-    <EmbeddedResource Include="Resource1.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resource1.Designer.cs</LastGenOutput>
-    </EmbeddedResource>
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
